@@ -1,0 +1,30 @@
+.payment_method_roqqett img {
+    vertical-align: middle;
+    float: none !important;
+    display: inline-block;
+    max-height: 100% !important;
+    margin-left: 1rem;
+}
+
+.roqqett-checkout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    background: #3E3AFF;
+    box-shadow: 0px 2px 8px rgba(3, 0, 147, 0.08);
+    border-radius: 4px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 5px 0;
+}
+
+.roqqett-checkout-smallest, .roqqett-checkout-small, .roqqett-checkout-medium {
+    padding: 0;
+}
+
+.roqqett-checkout-large, .roqqett-checkout-largest {
+    padding: 14px 0;
+}
