@@ -181,9 +181,8 @@ class Gateway extends WCGateway
             ],
             "testmode" => [
                 "title"       => "Test mode",
-                "label"       => "Coming soon",
+                "label"       => "Enable Test Mode",
                 "type"        => "checkbox",
-                "disabled"    => true,
                 "default"     => false
             ],
             "api_secret" => [
@@ -483,7 +482,8 @@ class Gateway extends WCGateway
                         "serviceName" => $order->get_shipping_method()
                         // "maxDeliveryDate" => "",
                         // "minDeliveryDate" => ""
-                    ]
+                    ],
+                    "testMode" => $this->testmode
                 ])
             ]
         );
