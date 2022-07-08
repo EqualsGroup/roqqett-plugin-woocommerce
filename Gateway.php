@@ -664,6 +664,10 @@ class Gateway extends WCGateway
 
     public function webhook_cart_abandoned(Order $order): string
     {
+        if ("processing" === $order->get_status()) {
+            $this->log("Did not mark order as failed because it was processing: " . $order->id);
+            return "Did not mark order as failed because it was processing.";
+        }
         $order->add_order_note('Your cart was abandoned.', true);
         $order->update_status("failed", "Cart abandoned", "woocommerce");
 
