@@ -491,11 +491,6 @@ class Gateway extends WCGateway
 
     public function process_payment($order_id)
     {
-        if ($this->should_prevent_submit) {
-            // If we are validating, don't process the payment.
-            return;
-        }
-
         global $woocommerce;
 
         // Has Woo already made the order?
@@ -507,6 +502,11 @@ class Gateway extends WCGateway
             $order->update_status("failed", "Order status was not pending, cannot process a non-pending order.", "woocommerce");
             wc_add_notice("Order status was not pending, cannot process a non-pending order.", "error");
             $this->log("Order status was not pending, cannot process a non-pending order (order ID = " . $order->get_id() . ").");
+            return;
+        }
+
+        if ($this->should_prevent_submit) {
+            // If we are validating, don't process the payment.
             return;
         }
 

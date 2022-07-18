@@ -7,7 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [1.1.0] - 2022-08-07
+## [1.1.1] - 2022-07-18
+
+### Bugfix
+
+Fixed to popup correctly on Safari-based browsers.
+
+## [1.1.0] - 2022-07-08
 
 ### Bugfix
 
@@ -25,7 +31,8 @@ Fixed to not mark orders as failed when they're abandoned if they're already pro
 
 - Roqqett Pay and Roqqett Checkout (Address Collection) compatibility.
 
-[unreleased]: https://github.com/Roqqett/plugin-WooCommerce/compare/v1.0.1...HEAD
+[unreleased]: https://github.com/Roqqett/plugin-WooCommerce/compare/v1.1.1...HEAD
+[1.1.1]: https://github.com/Roqqett/plugin-WooCommerce/releases/tag/v1.1.1
 [1.1.0]: https://github.com/Roqqett/plugin-WooCommerce/releases/tag/v1.1.0
 [1.0.1]: https://github.com/Roqqett/plugin-WooCommerce/releases/tag/v1.0.1
 [1.0.0]: https://github.com/Roqqett/plugin-WooCommerce/releases/tag/v1.0.0
