@@ -436,6 +436,7 @@ class Gateway extends WCGateway
                     "expiryTimeMinutes" => $expiry,
                     "transferId" => $transfer_id,
                     "merchantCartId" => $order->get_id(),
+                    "returnUrl" => $this->get_return_url($order),
                     "transaction" => [
                         "total" => [
                             "amount" => $this->price_to_int($order->get_total()),
