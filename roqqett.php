@@ -5,7 +5,7 @@
  * Plugin Name:     Roqqett
  * Plugin URI:      https://roqqett.com
  * Description:     Roqqett Pay and Roqqett Checkout allow users to pay using their banking apps, creating a great shopping experience, whilst reducing fees, fraud and friction for your business.
- * Version:         1.1.2
+ * Version:         1.1.3
  * Author:          Roqqett Ltd
  * Author URI:      https://roqqett.com
  * Developer:       Roqqett Ltd

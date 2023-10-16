@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.3] - 2023-10-16
+
+Fixed to send the payment reference to Roqqett's API.
+
 ## [1.1.2] - 2022-08-22
 
 ### Bugfix
