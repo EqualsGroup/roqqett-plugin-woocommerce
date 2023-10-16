@@ -438,6 +438,7 @@ class Gateway extends WCGateway
                     "merchantCartId" => $order->get_id(),
                     "returnUrl" => $this->get_return_url($order),
                     "transaction" => [
+                        "reference" => $order->get_id(),
                         "total" => [
                             "amount" => $this->price_to_int($order->get_total()),
                             "currency" => $order->get_currency(),
