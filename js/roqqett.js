@@ -69,8 +69,8 @@ jQuery(function ($) {
 
     const checkoutError = async () => {
         // If the submission didn't go well and produced more errors... 
-        if ($(".woocommerce-error").find("li").length !== 0 ||
-            !$(".woocommerce-info").text().includes("Roqqett: Validating...")) {
+        if ($(".woocommerce-error, .is-error").find("li").length !== 0 ||
+            !$(".woocommerce-info, .is-info").text().includes("Roqqett: Validating...")) {
             // Keep preventing submit.
             hasValidationFailure = true;
             return;

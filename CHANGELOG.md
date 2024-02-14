@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.4] - 2024-02-14
+
+Fixed to work with newer Woo and WP versions.
+
 ## [1.1.3] - 2023-10-16
 
 Fixed to send the payment reference to Roqqett's API.
@@ -41,7 +45,9 @@ Fixed to not mark orders as failed when they're abandoned if they're already pro
 
 - Roqqett Pay and Roqqett Checkout (Address Collection) compatibility.
 
-[unreleased]: https://github.com/Roqqett/plugin-WooCommerce/compare/v1.1.2...HEAD
+[unreleased]: https://github.com/Roqqett/plugin-WooCommerce/compare/v1.1.4...HEAD
+[1.1.4]: https://github.com/Roqqett/plugin-WooCommerce/releases/tag/v1.1.4
+[1.1.3]: https://github.com/Roqqett/plugin-WooCommerce/releases/tag/v1.1.3
 [1.1.2]: https://github.com/Roqqett/plugin-WooCommerce/releases/tag/v1.1.2
 [1.1.1]: https://github.com/Roqqett/plugin-WooCommerce/releases/tag/v1.1.1
 [1.1.0]: https://github.com/Roqqett/plugin-WooCommerce/releases/tag/v1.1.0
